@@ -1,0 +1,57 @@
+.Slogan {
+	font-size: 6em;
+	padding: 0 0.3em;
+	display: block;
+
+}
+
+.firstpart {
+	background-color: #97e3f8 ;
+	color: #fff001 ;
+}
+
+.lastpart {
+	background-color: #97e3f8 ;
+	color: #fff001 ;
+}
+
+
+
+.Slogan {
+	-webkit-animation-name: fadein;
+	-webkit-animation-duration: 3s;
+	-moz-animation-name: fadein;
+	-moz-animation-duration: 3s;
+	-ms-animation-name: fadein;
+	-ms-animation-duration: 3s;
+	-o-animation-name: fadein;
+	-o-animation-duration: 3s;
+	animation-name: fadein;
+	animation-duration: 3s;
+}
+
+
+@-webkit-keyframes fadein {
+	0% { opacity: 0; margin-left: -250px; }
+	100% { opacity: 1; margin-left: 0; }
+}
+
+@-moz-keyframes fadein {
+	0% { opacity: 0; margin-left: -250px; }
+	100% { opacity: 1; margin-left: 0; }
+}
+
+@-ms-keyframes fadein {
+	0% { opacity: 0; margin-left: -250px; }
+	100% { opacity: 1; margin-left: 0; }
+}
+
+@-o-keyframes fadein {
+	0% { opacity: 0; margin-left: -250px; }
+	100% { opacity: 1; margin-left: 0; }
+}
+
+@keyframes fadein {
+	0% { opacity: 0; margin-left: -250px; }
+	100% { opacity: 1; margin-left: 0; }
+}
